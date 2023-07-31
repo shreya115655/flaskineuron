@@ -44,7 +44,7 @@ def calculate():
         else:
             result="fail"
 
-        #return redirect(url_for(result,score=average_marks))     #redirecting to previously used routes
+        #return redirect(url_for(result,score=average_marks))     #redirecting to previously  used routes
 
 
         return render_template('result.html',results=average_marks)   #render template is used when we are redirecting to html page
